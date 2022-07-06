@@ -1,5 +1,5 @@
 
-# stats100_fun_with_data
+# stats100 fun with data
 
 <!-- badges: start -->
 <!-- badges: end -->
