@@ -1,10 +1,10 @@
-Package: stats100_data
+Package: stats100fwd
 Type: Package
-Title: Data For STATS 100
+Title: Data and functions For STATS 100
 Version: 0.1.1
 Author: Anna Fergusson
 Maintainer: Anna Fergusson <a.fergusson@auckland.ac.nz>
-Description: Data for STATS 100
+Description: Data and functions for STATS 100
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
