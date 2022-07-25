@@ -7,7 +7,8 @@ usethis::use_data(nzweatherdata, compress = "xz", overwrite = T)
 
 nzweatherdata_training <- nzweatherdata  %>%
   group_by(location) %>%
-  sample_frac(0.5)
+  sample_frac(0.5) %>%
+  ungroup()
 
 nzweatherdata_testing <- nzweatherdata %>%
   anti_join(nzweatherdata_training, by = "id")
