@@ -4,4 +4,9 @@
 #'
 #'
 "nzweatherdata"
-
+#'
+#'
+"nzweatherdata_training"
+#'
+#'
+"nzweatherdata_testing"
